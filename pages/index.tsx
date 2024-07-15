@@ -1,3 +1,5 @@
+import ClientSays from "@/components/ClientSays";
+import Process from "@/components/Process/Index";
 import ChooseUsWidget from "@/widgets/ChooseUs";
 import Hero from "@/widgets/Hero";
 import LayoutWrapper from "@/widgets/LayoutWrapper";
@@ -9,6 +11,8 @@ export default function Home() {
       <Hero />
       <ChooseUsWidget />
       <OurOffer />
+      <ClientSays />
+      <Process />
     </LayoutWrapper>
   );
 }
