@@ -9,9 +9,10 @@ interface ReviewProps {
 }
 
 function ReviewCard({ review }: { review: ReviewProps }) {
+  const quote = '"';
   return (
     <div className="flex flex-col bg-white px-1w py-11 px-20 rounded-xl gap-8">
-      <h1 className="text-[180px] text-primary-default">"</h1>
+      <h1 className="text-[180px] text-primary-default">{quote}</h1>
       <p className="text-black-800 text-[28px] mt-[-120px]">{review.text}</p>
 
       <span className="flex items-center gap-6 ">
