@@ -25,7 +25,7 @@ function Header() {
     <div className={cn("w-full bg-bg-light px-10 border-b")}>
       <span className="flex h-full justify-between">
         <Logo className={cn(" mt-3", {})} />
-        <span className="flex items-center gap-4 px-16 bg-white">
+        <span className="lg:flex hidden items-center gap-4 px-16 bg-white">
           {menuList.map((item, index) => (
             <TabItem
               key={index}

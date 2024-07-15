@@ -3,8 +3,8 @@ import Arrow from "@/assets/arrow_down.svg";
 
 function Hero() {
   return (
-    <div className="bg-bg-light min-h-[90vh] flex items-center justify-center relative">
-      <h1 className="uppercase text-[90px] text-black-900 text-center font-extrabold max-w-[1311px]">
+    <div className="bg-bg-light lg:min-h-[92vh] min-h-[100vh] flex items-center justify-center relative px-6">
+      <h1 className="uppercase lg:text-[72px] text-[48px] text-black-900 text-center font-extrabold max-w-[1311px]">
         THIS IS PROvdeD BY jOaN FOR TESTING. <br />
         <span className="text-primary-default">SENIOR FRONTEND DEV</span>
       </h1>

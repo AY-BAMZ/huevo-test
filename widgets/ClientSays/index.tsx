@@ -46,7 +46,7 @@ function ClientSays() {
   return (
     <div className="w-full py-16 mx-auto flex flex-col">
       <span className="max-w-[1400px] flex items-center mx-auto justify-between w-full">
-        <h2 className="text-[56px] text-black-900 text-center font-extrabold max-w-[1311px]">
+        <h2 className="lg:text-[44px] text-[36px] text-black-900 text-center font-extrabold max-w-[1311px]">
           What our Client Says
         </h2>
         <span className="w-[160px] h-[6px] bg-primary-900  rounded-full"></span>

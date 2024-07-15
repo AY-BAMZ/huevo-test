@@ -50,7 +50,7 @@ function Footer() {
             <input
               type="text"
               placeholder="Search"
-              className="flex-grow py-3 text-[24px] bg-transparent outline-none"
+              className="flex-grow py-3 text-[20px] bg-transparent outline-none"
               name=""
               id=""
             />
@@ -94,7 +94,7 @@ function Footer() {
         </span>
       </div>
       <div className="flex lg:flex-row flex-col gap-12 justify-between max-w-[1440px] w-full mt-20 mx-auto border-t border-t-white py-10">
-        <p className="text-[18px] text-[#D7D7D7]">
+        <p className="text-[16px] text-[#D7D7D7]">
           © 2024 Logo. All right reserved.
         </p>
         <span className="flex gap-[14px]">

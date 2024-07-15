@@ -14,7 +14,7 @@ function OfferCard({ data, className }: { data: OfferProps; className?: any }) {
         <span className="w-[40%]">
           <Image width={1000} height={1000} src={data.image} alt="" />
         </span>
-        <p className="text-[24px] font-semibold max-w-[400px] text-black-800 flex-grow w-[60%] pl-7">
+        <p className="text-[20px] font-semibold max-w-[400px] text-black-800 flex-grow w-[60%] pl-7">
           {data.text}
         </p>
       </span>

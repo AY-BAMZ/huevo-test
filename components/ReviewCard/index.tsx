@@ -13,7 +13,7 @@ function ReviewCard({ review }: { review: ReviewProps }) {
   return (
     <div className="flex flex-col bg-white px-1w py-11 px-20 rounded-xl gap-8">
       <h1 className="text-[180px] text-primary-default">{quote}</h1>
-      <p className="text-black-800 text-[28px] mt-[-120px]">{review.text}</p>
+      <p className="text-black-800 text-[24px] mt-[-118px]">{review.text}</p>
 
       <span className="flex items-center gap-6 ">
         <Image
@@ -25,7 +25,7 @@ function ReviewCard({ review }: { review: ReviewProps }) {
         />
         <span className="flex flex-col gap-1">
           <p className="text-[30px] font-bold text-black-900">{review.name}</p>
-          <p className="text-black-700 text-[18px]">{review.job}</p>
+          <p className="text-black-700 text-[16px]">{review.job}</p>
         </span>
       </span>
     </div>
