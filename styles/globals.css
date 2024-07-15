@@ -7,3 +7,62 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+/* * {
+  border: 1px solid red;
+} */
+.body1 {
+  max-width: 1640px;
+  margin-left: 120px;
+}
+.body2 {
+  max-width: 1640px;
+  margin-right: 120px;
+}
+@media (max-width: 1600px) {
+  .body1 {
+    max-width: 1520px;
+    margin-left: 80px;
+  }
+  .body2 {
+    max-width: 1520px;
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .body1 {
+    max-width: 1320px;
+    margin-left: 80px;
+  }
+  .body2 {
+    max-width: 1320px;
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .body1 {
+    max-width: 1160px;
+    margin-left: 40px;
+  }
+  .body2 {
+    max-width: 1160px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .body2 {
+    max-width: 1160px;
+    margin-right: 0px;
+  }
+  .body1 {
+    max-width: 1160px;
+    margin-left: 0px;
+  }
+}
+
+.hero-bg {
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+}

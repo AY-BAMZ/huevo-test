@@ -17,7 +17,7 @@ function ChooseUsWidget() {
     <div className="py-[160px] px-6">
       <span className="flex flex-col items-center gap-8">
         <span className="w-[160px] h-[6px] bg-primary-900  rounded-full"></span>
-        <h2 className="lg:text-[44px] text-[36px] text-black-900 text-center font-extrabold max-w-[1311px]">
+        <h2 className="lg:text-[44px] text-[32px] text-black-900 text-center font-extrabold max-w-[1311px]">
           Why Choose Us?
         </h2>
         <p className="lg:text-[20px] text-[16px] text-center max-w-[1283px] text-black-700 font-normal">

@@ -42,7 +42,7 @@ function Footer() {
     <div className="px-6 bg-black-1000 flex flex-col pt-[100px] text-white">
       <div className="grid lg:grid-cols-5 grid-cols-1 gap-8 max-w-[1440px] mx-auto">
         <span className="col-span-2 flex flex-col gap-[100px]">
-          <h3 className="text-[46px] leading-[74px] font-semibold">
+          <h3 className="lg:text-[40px] text-[32px]  font-semibold">
             Subscribe for Exclusive offers
           </h3>
           <span className="flex w-full gap-3 items-center py-3 border-b border-b-black-800">
@@ -57,10 +57,10 @@ function Footer() {
             <Arrow />
           </span>
         </span>
-        <span className="col-span-1 flex justify-center lg:pt-[500px] pt-0">
+        <span className="lg:col-span-1 col-span-2flex justify-center lg:pt-[500px] pt-0">
           <Logo className={cn(" mt-3", {})} />
         </span>
-        <span className="col-span-1 flex flex-col gap-10">
+        <span className="lg:col-span-1 col-span-2 flex flex-col gap-10">
           <h3 className="text-[26px] font-semibold text-black-200">
             {footerData.list1.title}
           </h3>
@@ -76,7 +76,7 @@ function Footer() {
             ))}
           </ul>
         </span>
-        <span className="col-span-1 flex flex-col gap-10">
+        <span className="lg:col-span-1 col-span-2 flex flex-col gap-10">
           <h3 className="text-[26px] font-semibold text-black-200">
             {footerData.list2.title}
           </h3>

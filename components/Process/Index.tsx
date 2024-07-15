@@ -20,7 +20,7 @@ function Process() {
   return (
     <div className="bg-white  py-[80px] px-6">
       <div className="w-full max-w-[1218px] mx-auto flex flex-col">
-        <h2 className="lg:text-[44px] text-[36px] text-black-900 text-center font-extrabold max-w-[1311px]">
+        <h2 className="lg:text-[44px] text-[32px] text-black-900 text-center font-extrabold max-w-[1311px]">
           watching our process
         </h2>
         <div className="video-widget mx-auto my-4 relative mt-14 group">
