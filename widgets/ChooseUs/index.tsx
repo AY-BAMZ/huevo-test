@@ -7,8 +7,11 @@ import WhyCard from "@/components/WhyCard";
 function ChooseUsWidget() {
   const data = [
     { icon: <Icon1 />, text: "Cost-Effectiveness" },
-    { icon: <Icon2 />, text: "Cost-Effectiveness" },
-    { icon: <Icon3 />, text: "Cost-Effectiveness" },
+    { icon: <Icon2 />, text: "Investing in Your Startup's Success" },
+    {
+      icon: <Icon3 />,
+      text: "Multilingual Support- Overcoming Language Barriers",
+    },
   ];
   return (
     <div className="py-[160px] px-6">
